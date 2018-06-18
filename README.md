@@ -1,5 +1,10 @@
 # IEEE-39-bus-power-system
-A full-replica MATLAB/Simulink dynamic model of the IEEE 39-bus power system, including dynamic models of conventional generation and dynamic load profiles. 
+This project contains a full-replica MATLAB/Simulink dynamic model of the IEEE 39-bus power system, including dynamic models of conventional generation and dynamic load profiles. 
+
+The model was developed in the Distributed Electrical System Laboratory of École Polytechnique Fédérale de Lausanne (EPFL), Switzerland.
+
+The model was developed for use with the Opal-RT eMegaSim real-time power system simulator.
+
 ## Simulink model
 ### Transmission line parameters
 The IEEE 39-bus does not specify any line lengths; therefore, we choose them to obtain a propagation speed just below the speed of light. 
